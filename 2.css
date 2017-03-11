@@ -1,0 +1,39 @@
+body,p,ul,li,h1,h2,h3,h4,{margin: 0px;padding:0px;}
+body{background-color: #F4F4F4;}
+
+
+/* 搜索 */
+.nav{background-color: #FF6801;padding: 3px 0 0 20PX;height: 3.2rem;}
+.textfield{width:85%;}
+.navbar-fixed-top{margin: 0px;}
+
+/*导航*/
+.search{position: fixed;top:3.2rem;width: 100%;}
+.search ul{background-color: white;height: 2.8rem;}
+.search ul li{float: left;padding:0 15px;line-height: 3rem;overflow: hidden;}    
+.search ul li:hover{text-align: center;border-bottom: 1px solid #FF6801;color: #FF6801;}                                                  
+.search a{color: black;list-style: none;text-decoration: none;font-size: 1rem;}  
+
+/*banner*/
+.banner{width: 100%;margin: 0px 0px 5px;}
+
+/* photo */
+.photo{margin-bottom: 10px;text-align: center;font-size: 1rem;background-color: white;line-height: 5rem;}
+.tupian{display: flex;}
+.tupian img{width:100%;}
+.tupian a{color: black;}
+
+/*footer*/
+.footer{width: 100%;height: 40px;background-color: white;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;padding-top: 3px;}
+.footer a{padding-top: 5px;width: 20px;height: 20px;background-image: url(img/mimall/spr1.png);background-size: 100%;}
+.footer img{width: 90%;}
+.footer span{color: black;font-size: 0.9rem;position: relative;top: 10px;}
+.footer a:nth-child(1){background-position: 0px 180px;}
+.footer a:nth-child(2){background-position: 0px 480px;}
+.footer a:nth-child(3){background-position: 0px 420px;}
+.footer a:nth-child(4){background-position: 0px 60px;}
+
+.footer a:nth-child(2) span{color: #F56A00;}
+
+
+

@@ -1,0 +1,56 @@
+body,p,ul,li,h1,h2,h3,h4{margin: 0px;padding:0px;}
+body{background-color: #F4F4F4;}
+/* 导航 */
+navbar{padding-top: 3px;}
+.container{width: 80%;}
+.textfield{width:100%;}
+
+/*carousel-example-generic 轮播图*/
+.carousel-example-generic{position: absolute;top: 0px;left:0px;}
+.item img{width: 100%;}
+
+.newspaper{background-color: white;line-height: 2.5rem;
+/*border-bottom: 1px solid gray;*/
+}
+.newspaper span:nth-child(1){color: orange;font-weight: bold;margin-right:10px;}
+.newspaper span:nth-child(2){color: black;}
+.newspaper span:nth-child(3){color: black;font-size: 1rem;margin-left:10px;}
+/* banner */
+.banner{display: flex;}
+.banner a{margin: 5px;}
+.banner img{width: 100%;}
+
+
+/*main*/
+.main{background-color: white;margin-bottom: 5px;}
+.main .pic{width:25%;float: left;}
+.main .xiaomi{float: right;} 
+.main .xiaomi h2{font-size:1.5rem;color: black;padding-top: 10px;}
+.main .xiaomi p{font-size:1.2rem;line-height: 3rem;color: gray; }
+.main .xiaomi span{font-size:1.2rem;color: darkred;}
+
+/*footer*/
+.footer{width: 100%;height: 40px;background-color: white;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;padding-top: 3px;}
+.footer a{padding-top: 5px;width: 20px;height: 20px;background-image: url(img/mimall/spr1.png);background-size: 100%;}
+.footer img{width: 90%;}
+.footer span{color: black;font-size: 0.9rem;position: relative;top: 10px;}
+.footer a:nth-child(1){background-position: 0px 360px;}
+.footer a:nth-child(2){background-position: 0px 300px;}
+.footer a:nth-child(3){background-position: 0px 420px;}
+.footer a:nth-child(4){background-position: 0px 60px;}
+
+
+.footer a:nth-child(1) span{color: #F56A00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
